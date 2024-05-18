@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Quotes App</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        
+
+        <div class="quoteContainer w-75 mx-auto my-5 p-3 text-center romanFamily text-black">
+            <h1 class="mb-5 impactFamily fw-bolder">Quote of the Day</h1>
+            <p class="mb-4 fw-medium">Press the button below to recieve a random quote!</p>
+            <div class="position-relative">
+                <button class="btn btn-primary px-5 py-4 arialFamily" id="add" onclick="luckQuote()">New Quote</button>
+                <button class="btn btn-danger px-5 py-4 arialFamily" id="clear" onclick="clearQuote()">Clear</button>
+                <a class="btn btn-secondary px-4 py-4 arialFamily fw-semibold setting rounded-5" href="control.html">Setting</a>
+            </div>
+            
+            
+        </div>
+
+        <div id="quotes" class="w-75 mx-auto my-5 text-center">
+        
+        </div>
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

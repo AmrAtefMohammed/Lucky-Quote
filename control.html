@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Quotes App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <div class="quoteContainer w-75 mx-auto my-5 p-3 text-center romanFamily text-black position-relative">
+        <h1 class="mb-5 impactFamily fw-bolder">Manage Quotes</h1>
+        <div class="formDiv">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control border border-2 border-black" id="quoteInput" placeholder="name@example.com">
+                <label for="quoteInput">Quote</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control border border-2 border-black" id="authorInput" placeholder="Password">
+                <label for="authorInput">Author</label>
+            </div>
+        </div>
+        <div class="position-relative">
+            <a class="btn btn-secondary px-4 py-4 arialFamily fw-semibold backHome rounded-5" href="index.html">Back</a>
+            <button class="btn btn-warning px-5 py-4 arialFamily fw-semibold" id="addNew" onclick="addNewQuote()">ADD</button>
+            <button class="btn btn-danger px-5 py-4 arialFamily" id="showAll" onclick="showAllQuote()">Show All</button>
+            <button class="btn btn-dark px-5 py-4 arialFamily" id="clear" onclick="clearInput()">Reset</button>
+        </div>
+
+    </div>
+
+
+    <div id="containerAll" class="w-75 mx-auto my-70">
+        <table class="table">
+            <thead class="fs-2">
+                <th>ID</th>
+                <th>Quote</th>
+                <th>Author</th>
+                <th></th>
+            </thead>
+            <tbody id="quoteArea">
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

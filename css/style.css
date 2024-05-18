@@ -1,0 +1,64 @@
+.impactFamily{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.romanFamily{
+    font-family: 'Times New Roman', Times, serif;
+}
+.arialFamily{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-70{
+    margin-block: 70px;
+}
+
+
+.quoteContainer{
+    box-shadow: 20px 20px 25px rgb(128, 128, 128);
+}
+
+.quoteContainer h1{
+    font-size: 85px;
+}
+
+.quoteContainer button {
+    border: transparent 2px solid;
+    transition: all 0.2s;
+}
+
+.quoteContainer #add:hover {
+    background-color: green;
+    border: black 2px solid;
+}
+
+.quoteContainer p,
+#quotes p{
+    font-size: 38px;
+}
+#quotes q{
+    font-size: 36px;
+}
+
+
+
+.formDiv input{
+    border-color: rgba(0, 0, 0, 0.393) !important;
+}
+
+.btn#showAll{
+    background-color: rgb(0, 128, 128);
+    color: white;
+}
+.btn#showAll:hover{
+    background-color: rgba(0, 128, 128, 0.923);
+    border-color: transparent;
+}
+
+.btn.backHome{
+    position: absolute;
+    left: 10px;
+}
+.btn.setting{
+    position: absolute;
+    right: 10px;
+}
